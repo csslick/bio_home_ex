@@ -5,7 +5,7 @@
 .container {
   width: 1200px;
   margin: 0 auto;
-  outline: 1px solid red;s
+  /* outline: 1px solid red; */
 }
 
 /* PC에만 적용 */
@@ -15,7 +15,7 @@
   }
 
   [class*=col_] {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     float: left;
     /* padding: 20px; */
     margin: 0 10px;
