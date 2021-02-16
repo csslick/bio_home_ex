@@ -37,3 +37,8 @@ $(function(){
 
 
 })
+
+// AOS
+$(function(){
+  AOS.init();
+})
