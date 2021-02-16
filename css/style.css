@@ -21,6 +21,7 @@ body {
   color: #333;
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 18px;
+  overflow-x: hidden;
 }
 
 .img_responsive {
@@ -84,6 +85,7 @@ body {
   width: 100%; height: 620px;
   /* outline: 2px solid red; */
   margin: 0 auto;
+  overflow: hidden;
 }
 
 #main_visual .swiper-container {
@@ -151,14 +153,25 @@ body {
   color: #fff;
 }
 
+.btn-blue {
+  background: #4c81bf;
+  color: #fff;
+}
+
+.btn-blue:hover {
+  opacity: 0.8;
+}
+
 #product {
   padding-top: 100px;
   padding-bottom: 100px;
   text-align: center;
   background: #f8f8f8;
 }
+
 #product h2,
-#ir h2 {
+#ir h2,
+#notice h2 {
   font-size: 30px;
   margin-bottom: 50px;
 }
@@ -186,4 +199,51 @@ body {
   background: #fff;
   color: #000;
   text-shadow: none;
+}
+
+
+/* 공지사항 및 빠른문의 */
+#notice {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#notice .btn-detail {
+  margin-top: 60px;
+}
+
+#notice label {
+  display: none;
+}
+
+.form-group {
+  /* background: #ccc; */
+  margin-bottom: 10px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  display: block;
+  padding: 15px;
+  border: 1px solid rgba(0,0,0, 0.2);
+  border-radius: 5px;
+}
+
+#notice form .btn-detail {
+  margin-top: 30px;
+}
+
+address { font-style: normal;}
+#main_footer {
+  background: #3b3c3d;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #fff;
+  font-size: 0.8em;
+}
+
+#main_footer address, 
+#main_footer .info {
+  margin-bottom: 10px;
 }
