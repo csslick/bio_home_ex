@@ -74,7 +74,7 @@ body {
 /* 2단계 메뉴 */
 #gnb ul.depth2 {
   outline: 1px solid rgba(0,0,0,0.2);
-  margin-top: 32px;
+  margin-top: 33px;
   padding: 20px 10px;
   display: none;
 }
