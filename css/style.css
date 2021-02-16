@@ -17,6 +17,16 @@ p {
   line-height: 28px;
 }
 
+textarea {
+  resize: none;
+}
+
+input:focus {
+  /* outline: 1px solid #4c81bf; */
+  outline: none;
+  box-shadow: 0 0 0 2px #4c81bf;
+}
+
 body {
   color: #333;
   font-family: 'Noto Sans KR', sans-serif;
